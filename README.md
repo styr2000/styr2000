@@ -1,34 +1,28 @@
 ```php
 <?php
-namespace QqqReal;
+namespace Styr;
 
-use KeepLearning;
 
-class Developer
+class Styr
 {
-    private $isHired = false;
+    private $lookingJob = true;
 
-    public function isHired(): bool
+    public function index();
     {
-        return $this->isHired;
+        isHiring($this->lookingJob) {
+            return $this->tech();
+        }
     }
 
-    public function techStack(): array
-    {
-        return [
-            Php::class,
-            Laravel::class,
-            Python::class,
-            TailwindCss::class,
-            'linuxeye/lnmp',
+    public tech(){
+        return = [
+              Laravel::class,
+              Python::class,
+              Mysql::class,
+              Nginx::class,
+              AndroidStudio::class
         ];
     }
 
-    public function needWork(): array
-    {
-        return $this->techStack();
-    }
-}
-```
 
-hehe still noob
+}
