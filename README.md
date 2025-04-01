@@ -9,8 +9,10 @@ class Styr
 
     public function index();
     {
-        isHiring($this->lookingJob) {
+        if($this->lookingJob) {
             return $this->tech();
+        } else {
+            return "Got hired!";
         }
     }
 
